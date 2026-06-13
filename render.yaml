@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: ticketing-engine
+    env: docker
+    plan: free # Update to standard/pro for production
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: SPLUNK_HEC_URI
+        sync: false
+      - key: SPLUNK_HEC_TOKEN
+        sync: false
+      - key: APP_NAME
+        value: "Real-Time Event Ticketing Engine (Prod)"
+      - key: DEBUG
+        value: "False"

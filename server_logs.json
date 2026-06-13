@@ -1,0 +1,567 @@
+{
+    "timestamp": "2026-06-13T10:32:50.308907Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Splunk HEC background worker started.",
+    "taskName": "Task-2",
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:33:01.002917Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "HTTP Request Completed",
+    "taskName": "Task-8",
+    "method": "GET",
+    "path": "/docs",
+    "status_code": 200,
+    "latency_ms": 1.126,
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "1122b69f-67f1-4782-bf4e-01524b9380f5",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:33:01.278203Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "HTTP Request Completed",
+    "taskName": "Task-17",
+    "method": "GET",
+    "path": "/openapi.json",
+    "status_code": 200,
+    "latency_ms": 13.442,
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "02aff069-37ba-46a1-8bcf-bcb869446c4a",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:33:38.850399Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Received request to create event",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "event_name": "new event",
+    "logger_name": "ticketing_engine",
+    "filename": "events.py",
+    "correlation_id": "7ac59929-b8d3-469e-ada4-980241bbf68f",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:33:38.854468Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Event created successfully",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "event_id": "b208cce4-9851-431c-aba7-e301fec04c30",
+    "logger_name": "ticketing_engine",
+    "filename": "events.py",
+    "correlation_id": "7ac59929-b8d3-469e-ada4-980241bbf68f",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:33:38.856985Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "HTTP Request Completed",
+    "taskName": "Task-25",
+    "method": "POST",
+    "path": "/api/v1/events",
+    "status_code": 201,
+    "latency_ms": 8.739,
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "7ac59929-b8d3-469e-ada4-980241bbf68f",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:34:42.962696Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Received booking request",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "event_name": "new event",
+    "username": "johndoe88",
+    "logger_name": "ticketing_engine",
+    "filename": "tickets.py",
+    "correlation_id": "4a9be828-15d5-4c89-8750-863e4bf3a118",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:34:42.963695Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Created new user",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "user_id": "d7d1c7f9-735b-489f-a8aa-07ea5a448dd6",
+    "logger_name": "ticketing_engine",
+    "filename": "tickets.py",
+    "correlation_id": "4a9be828-15d5-4c89-8750-863e4bf3a118",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:34:42.968355Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Tickets booked successfully",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "booking_id": "29637578-a73e-4c1f-b910-1d2dd5d2a4e8",
+    "status": "PENDING_PAYMENT",
+    "logger_name": "ticketing_engine",
+    "filename": "tickets.py",
+    "correlation_id": "4a9be828-15d5-4c89-8750-863e4bf3a118",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:34:42.974084Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "HTTP Request Completed",
+    "taskName": "Task-41",
+    "method": "POST",
+    "path": "/api/v1/tickets/book",
+    "status_code": 201,
+    "latency_ms": 12.978,
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "4a9be828-15d5-4c89-8750-863e4bf3a118",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:35:40.043295Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Received payment webhook",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "booking_id": "29637578-a73e-4c1f-b910-1d2dd5d2a4e8",
+    "tx_ref": "tx_chg_8891002a",
+    "logger_name": "ticketing_engine",
+    "filename": "tickets.py",
+    "correlation_id": "79204e1f-7666-4804-b17e-6c4b31c89148",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:35:40.043803Z",
+    "level": "ERROR",
+    "name": "ticketing_engine",
+    "message": "Payment amount mismatch",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "expected": 300.0,
+    "received": 150.0,
+    "logger_name": "ticketing_engine",
+    "filename": "tickets.py",
+    "correlation_id": "79204e1f-7666-4804-b17e-6c4b31c89148",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:35:40.045811Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "HTTP Request Completed",
+    "taskName": "Task-60",
+    "method": "POST",
+    "path": "/api/v1/tickets/payment",
+    "status_code": 400,
+    "latency_ms": 3.802,
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "79204e1f-7666-4804-b17e-6c4b31c89148",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:36:36.113333Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Received payment webhook",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "booking_id": "29637578-a73e-4c1f-b910-1d2dd5d2a4e8",
+    "tx_ref": "tx_chg_8891002a",
+    "logger_name": "ticketing_engine",
+    "filename": "tickets.py",
+    "correlation_id": "b2d622f1-3735-4967-9c55-f50365f4cba9",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:36:36.117728Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Payment processed successfully",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "payment_id": "2f8772ea-6cd0-4b6a-a8de-0ff898b6b0ee",
+    "booking_id": "29637578-a73e-4c1f-b910-1d2dd5d2a4e8",
+    "logger_name": "ticketing_engine",
+    "filename": "tickets.py",
+    "correlation_id": "b2d622f1-3735-4967-9c55-f50365f4cba9",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:36:36.117728Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "HTTP Request Completed",
+    "taskName": "Task-76",
+    "method": "POST",
+    "path": "/api/v1/tickets/payment",
+    "status_code": 200,
+    "latency_ms": 7.734,
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "b2d622f1-3735-4967-9c55-f50365f4cba9",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:38:17.060629Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Splunk HEC background worker stopped.",
+    "taskName": "Task-2",
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:41:59.754319Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Splunk HEC background worker started.",
+    "taskName": "Task-2",
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:42:03.911324Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Splunk HEC background worker stopped.",
+    "taskName": "Task-2",
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:42:59.851489Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Splunk HEC background worker started.",
+    "taskName": "Task-2",
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:43:16.559452Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "HTTP Request Completed",
+    "taskName": "Task-8",
+    "method": "GET",
+    "path": "/docs",
+    "status_code": 200,
+    "latency_ms": 0.92,
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "f2aba15a-5fcc-477e-8911-f2e2cf05f653",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:43:16.760438Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "HTTP Request Completed",
+    "taskName": "Task-15",
+    "method": "GET",
+    "path": "/openapi.json",
+    "status_code": 200,
+    "latency_ms": 15.669,
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "a71b211a-905d-4e60-b76d-1cccdf67c9db",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:43:50.793791Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Received request to create event",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "event_name": "new event 1",
+    "logger_name": "ticketing_engine",
+    "filename": "events.py",
+    "correlation_id": "b8eb65c9-a1f6-4552-8ab1-72938f3c53ee",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:43:50.803547Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Event created successfully",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "event_id": "5010d143-4893-40ad-9bf0-696fa32b1768",
+    "logger_name": "ticketing_engine",
+    "filename": "events.py",
+    "correlation_id": "b8eb65c9-a1f6-4552-8ab1-72938f3c53ee",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:43:50.806604Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "HTTP Request Completed",
+    "taskName": "Task-25",
+    "method": "POST",
+    "path": "/api/v1/events",
+    "status_code": 201,
+    "latency_ms": 13.35,
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "b8eb65c9-a1f6-4552-8ab1-72938f3c53ee",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:44:23.561093Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Received booking request",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "event_name": "new event",
+    "username": "johndoe88",
+    "logger_name": "ticketing_engine",
+    "filename": "tickets.py",
+    "correlation_id": "4b009b01-b457-4b11-91c0-4008855c8ea5",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:44:23.562306Z",
+    "level": "WARNING",
+    "name": "ticketing_engine",
+    "message": "User does not exist",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "username": "johndoe88",
+    "logger_name": "ticketing_engine",
+    "filename": "tickets.py",
+    "correlation_id": "4b009b01-b457-4b11-91c0-4008855c8ea5",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:44:23.564427Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "HTTP Request Completed",
+    "taskName": "Task-41",
+    "method": "POST",
+    "path": "/api/v1/tickets/book",
+    "status_code": 404,
+    "latency_ms": 5.379,
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "4b009b01-b457-4b11-91c0-4008855c8ea5",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:44:58.680273Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Received request to register user",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "username": "johndoe88",
+    "logger_name": "ticketing_engine",
+    "filename": "users.py",
+    "correlation_id": "51054cb2-2fd7-4515-8f93-b4261b9227d8",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:44:58.688988Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "User registered successfully",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "user_id": "ccaa94f7-4f30-46c6-8698-4639aea35435",
+    "logger_name": "ticketing_engine",
+    "filename": "users.py",
+    "correlation_id": "51054cb2-2fd7-4515-8f93-b4261b9227d8",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:44:58.690507Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "HTTP Request Completed",
+    "taskName": "Task-57",
+    "method": "POST",
+    "path": "/api/v1/users/register",
+    "status_code": 201,
+    "latency_ms": 10.526,
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "51054cb2-2fd7-4515-8f93-b4261b9227d8",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:45:44.587653Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Received booking request",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "event_name": "new event",
+    "username": "johndoe88",
+    "logger_name": "ticketing_engine",
+    "filename": "tickets.py",
+    "correlation_id": "df43aac3-2126-4714-8840-f7c0971f94a0",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:45:44.588663Z",
+    "level": "ERROR",
+    "name": "ticketing_engine",
+    "message": "Target event not found",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "event_name": "new event",
+    "logger_name": "ticketing_engine",
+    "filename": "tickets.py",
+    "correlation_id": "df43aac3-2126-4714-8840-f7c0971f94a0",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:45:44.589662Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "HTTP Request Completed",
+    "taskName": "Task-73",
+    "method": "POST",
+    "path": "/api/v1/tickets/book",
+    "status_code": 404,
+    "latency_ms": 2.573,
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "df43aac3-2126-4714-8840-f7c0971f94a0",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:46:07.580730Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Received booking request",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "event_name": "new event 1",
+    "username": "johndoe88",
+    "logger_name": "ticketing_engine",
+    "filename": "tickets.py",
+    "correlation_id": "be0bb257-eac2-433b-8b45-e2e620225c25",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:46:07.588941Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Tickets booked successfully",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "booking_id": "67928a40-45cf-4be7-8e89-9244b3f509dd",
+    "status": "PENDING_PAYMENT",
+    "logger_name": "ticketing_engine",
+    "filename": "tickets.py",
+    "correlation_id": "be0bb257-eac2-433b-8b45-e2e620225c25",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:46:07.591018Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "HTTP Request Completed",
+    "taskName": "Task-89",
+    "method": "POST",
+    "path": "/api/v1/tickets/book",
+    "status_code": 201,
+    "latency_ms": 10.701,
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "be0bb257-eac2-433b-8b45-e2e620225c25",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:46:53.271147Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Received payment webhook",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "booking_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "tx_ref": "tx_chg_8891002a",
+    "logger_name": "ticketing_engine",
+    "filename": "tickets.py",
+    "correlation_id": "2cde656f-7875-4fb0-a82c-29109d3bacca",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:46:53.273204Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "HTTP Request Completed",
+    "taskName": "Task-105",
+    "method": "POST",
+    "path": "/api/v1/tickets/payment",
+    "status_code": 404,
+    "latency_ms": 5.499,
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "2cde656f-7875-4fb0-a82c-29109d3bacca",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:47:26.545062Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Received payment webhook",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "booking_id": "67928a40-45cf-4be7-8e89-9244b3f509dd",
+    "tx_ref": "tx_chg_8891002a",
+    "logger_name": "ticketing_engine",
+    "filename": "tickets.py",
+    "correlation_id": "8fd80a2a-9ab0-4ac0-9e35-ad27f44f1eb5",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:47:26.553955Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Payment processed successfully",
+    "taskName": "starlette.middleware.base.BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.coro",
+    "booking_id": "67928a40-45cf-4be7-8e89-9244b3f509dd",
+    "logger_name": "ticketing_engine",
+    "filename": "tickets.py",
+    "correlation_id": "8fd80a2a-9ab0-4ac0-9e35-ad27f44f1eb5",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:47:26.554955Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "HTTP Request Completed",
+    "taskName": "Task-118",
+    "method": "POST",
+    "path": "/api/v1/tickets/payment",
+    "status_code": 200,
+    "latency_ms": 11.342,
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "8fd80a2a-9ab0-4ac0-9e35-ad27f44f1eb5",
+    "app_name": "Real-Time Event Ticketing Engine"
+}
+{
+    "timestamp": "2026-06-13T10:49:27.179525Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Splunk HEC background worker stopped.",
+    "taskName": "Task-2",
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "",
+    "app_name": "Real-Time Event Ticketing Engine"
+}

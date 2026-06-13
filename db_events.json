@@ -1,0 +1,10 @@
+{
+  "5010d143-4893-40ad-9bf0-696fa32b1768": {
+    "event_id": "5010d143-4893-40ad-9bf0-696fa32b1768",
+    "event_name": "new event 1",
+    "total_capacity": 500,
+    "available_seats": 498,
+    "ticket_price": 150.0,
+    "status": "ACTIVE"
+  }
+}

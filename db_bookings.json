@@ -1,0 +1,12 @@
+{
+  "67928a40-45cf-4be7-8e89-9244b3f509dd": {
+    "booking_id": "67928a40-45cf-4be7-8e89-9244b3f509dd",
+    "event_id": "5010d143-4893-40ad-9bf0-696fa32b1768",
+    "user_id": "ccaa94f7-4f30-46c6-8698-4639aea35435",
+    "quantity": 2,
+    "total_cost": 300.0,
+    "status": "CONFIRMED",
+    "expires_at": "2026-06-13T10:56:07.580730Z",
+    "payment_reference": "tx_chg_8891002a"
+  }
+}
