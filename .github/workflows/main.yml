@@ -99,19 +99,19 @@ jobs:
         run: npm install --global vercel@latest
 
       - name: Pull Vercel Environment Information
-        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }} > vercel_pull.log 2>&1
+        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }} | tee -a vercel_combined.log
         env:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
       - name: Build Project Artifacts
-        run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }} > vercel_build.log 2>&1
+        run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }} | tee -a vercel_combined.log
         env:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
       - name: Deploy Project Artifacts to Vercel
-        run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }} > vercel_deploy.log 2>&1
+        run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }} | tee -a vercel_combined.log
         env:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
@@ -119,7 +119,7 @@ jobs:
       - name: Send Logs to Splunk (Deploy Stage)
         if: always()
         run: |
-          LOG_CONTENT=$(cat vercel_deploy.log || echo "No deploy logs found")
+          LOG_CONTENT=$(cat vercel_combined.log || echo "No deploy logs found")
           PAYLOAD=$(jq -n \
             --arg p "github_actions" \
             --arg stage "deploy" \
