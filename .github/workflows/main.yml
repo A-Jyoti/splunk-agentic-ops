@@ -23,11 +23,12 @@ jobs:
 
       - name: Install dependencies & lint
         run: |
+          set -o pipefail
           python -m pip install --upgrade pip
           pip install flake8
           # We just check for fatal syntax errors for now
-          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics > lint_output.log 2>&1 || true
-          flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics >> lint_output.log 2>&1
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics | tee lint_output.log || true
+          flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics | tee -a lint_output.log
 
       - name: Send Logs to Splunk (Lint Stage)
         if: always()
@@ -67,7 +68,8 @@ jobs:
 
       - name: Run Tests
         run: |
-          python -m pytest tests/ -v > test_output.log 2>&1
+          set -o pipefail
+          python -m pytest tests/ -v 2>&1 | tee test_output.log
 
       - name: Send Logs to Splunk (Test Stage)
         if: always()
@@ -95,23 +97,22 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Install Vercel CLI
-        run: npm install --global vercel@latest
+      - name: Install Vercel CLI & UV
+        run: |
+          npm install --global vercel@latest
+          pip install uv
 
-      - name: Pull Vercel Environment Information
-        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }} | tee -a vercel_combined.log
-        env:
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-
-      - name: Build Project Artifacts
-        run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }} | tee -a vercel_combined.log
-        env:
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-
-      - name: Deploy Project Artifacts to Vercel
-        run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }} | tee -a vercel_combined.log
+      - name: Vercel Pull, Build, and Deploy
+        run: |
+          set -o pipefail
+          echo "Starting Vercel Pull..." | tee -a vercel_combined.log
+          vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }} 2>&1 | tee -a vercel_combined.log
+          
+          echo -e "\nStarting Vercel Build..." | tee -a vercel_combined.log
+          vercel build --prod --token=${{ secrets.VERCEL_TOKEN }} 2>&1 | tee -a vercel_combined.log
+          
+          echo -e "\nStarting Vercel Deploy..." | tee -a vercel_combined.log
+          vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }} 2>&1 | tee -a vercel_combined.log
         env:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
