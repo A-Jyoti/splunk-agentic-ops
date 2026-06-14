@@ -14,7 +14,6 @@ def reset_db():
     db.users.clear()
     db.events.clear()
     db.bookings.clear()
-    db.payments.clear()
     db.username_to_id.clear()
     db.event_name_to_id.clear()
 
