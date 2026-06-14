@@ -15629,3 +15629,14 @@
     "correlation_id": "",
     "app_name": "Real-Time Event Ticketing Engine"
 }
+{
+    "timestamp": "2026-06-14T12:22:47.526808Z",
+    "level": "INFO",
+    "name": "ticketing_engine",
+    "message": "Splunk HEC background worker started.",
+    "taskName": "Task-2",
+    "logger_name": "ticketing_engine",
+    "filename": "main.py",
+    "correlation_id": "",
+    "app_name": "Real-Time Event Ticketing Engine"
+}

@@ -67,7 +67,7 @@ jobs:
 
       - name: Run Tests
         run: |
-          pytest tests/ -v > test_output.log 2>&1
+          python -m pytest tests/ -v > test_output.log 2>&1
 
       - name: Send Logs to Splunk (Test Stage)
         if: always()
