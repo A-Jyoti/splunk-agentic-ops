@@ -117,9 +117,14 @@ def setup_logging():
     logger.addHandler(console_handler)
 
     # File Handler for Editor Viewing (Readable JSON)
-    file_handler = logging.FileHandler("server_logs.json", mode="a")
-    file_handler.setFormatter(console_formatter)
-    logger.addHandler(file_handler)
+    try:
+        file_handler = logging.FileHandler("server_logs.json", mode="a")
+        file_handler.setFormatter(console_formatter)
+        logger.addHandler(file_handler)
+    except OSError:
+        # Vercel / Serverless environments have read-only filesystems.
+        # We silently skip local file logging in production.
+        pass
 
     # Splunk HEC Handler (Real-time by default, batching config available)
     # This maintains the strict JSON formatting for Splunk

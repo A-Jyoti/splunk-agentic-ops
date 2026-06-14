@@ -7,7 +7,11 @@ from datetime import datetime, timezone
 DB_PREFIX = os.getenv("TICKETING_DB_PREFIX", "db_")
 
 def get_db_path(name: str) -> str:
-    return f"{DB_PREFIX}{name}.json"
+    filename = f"{DB_PREFIX}{name}.json"
+    # Vercel Serverless Functions have read-only filesystems except for /tmp
+    if os.environ.get("VERCEL"):
+        return os.path.join("/tmp", filename)
+    return filename
 
 class InMemoryDB:
     def __init__(self):
