@@ -22,7 +22,8 @@ Instead of running a heavy `apscheduler` daemon to check for expired bookings co
 No sidecars or intermediate agents (like Filebeat) are required. The Python app natively queues log payloads into `asyncio.Queue`. A worker task asynchronously batches and ships them via `httpx.AsyncClient` to the configured `SPLUNK_HEC_URI`.
 
 ## 5. CI/CD DevOps Pipeline
-The `.github/workflows/main.yml` manages continuous integration. It runs `pytest`, then explicitly uses a bash `curl` command to post a custom JSON event directly to Splunk containing pipeline metadata. If all tests pass on the `main` branch, a webhook triggers a deployment on Render, logging the start of this CD pipeline process as well.
+The `.github/workflows/main.yml` manages continuous integration in three distinct sequential stages: **Lint**, **Test**, and **Deploy**. 
+Every single stage automatically parses its own `stdout` and `stderr` logs, injecting them into a JSON payload, and `curl`s it directly to the Splunk HEC. If the Lint and Test stages pass on the `main` branch, the Deploy stage initiates. The pipeline utilizes the official `vercel` CLI to pull, build, and deploy the FastAPI application natively as a Vercel Serverless Function, pushing the final deployment logs straight to Splunk.
 
 ## 6. Visualizing Data & Logs in your Editor
 * **Database JSON (`db_users.json`, etc):** The `InMemoryDB` is configured to physically dump its exact schema to dedicated files like `db_users.json`, `db_events.json`, and `db_bookings.json` right in the root of your project immediately upon server startup. You can open these files directly in your code editor to see data locally. 

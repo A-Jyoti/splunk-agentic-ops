@@ -3,8 +3,656 @@
     "event_id": "5010d143-4893-40ad-9bf0-696fa32b1768",
     "event_name": "new event 1",
     "total_capacity": 500,
-    "available_seats": 498,
+    "available_seats": 495,
     "ticket_price": 150.0,
+    "status": "ACTIVE"
+  },
+  "5c241433-48d5-4a92-8a4d-06500421965e": {
+    "event_id": "5c241433-48d5-4a92-8a4d-06500421965e",
+    "event_name": "meet",
+    "total_capacity": 500,
+    "available_seats": 500,
+    "ticket_price": 150.0,
+    "status": "ACTIVE"
+  },
+  "4c481b8b-37f8-48cd-ab36-ceab782c37c6": {
+    "event_id": "4c481b8b-37f8-48cd-ab36-ceab782c37c6",
+    "event_name": "hello people",
+    "total_capacity": 500,
+    "available_seats": 500,
+    "ticket_price": 150.0,
+    "status": "ACTIVE"
+  },
+  "14c0183e-d35a-46c1-a178-e7e0f899f2ea": {
+    "event_id": "14c0183e-d35a-46c1-a178-e7e0f899f2ea",
+    "event_name": "Event-y4ia6",
+    "total_capacity": 26,
+    "available_seats": 22,
+    "ticket_price": 110.33,
+    "status": "ACTIVE"
+  },
+  "60de07b2-26c6-4922-93e7-f75c79a37347": {
+    "event_id": "60de07b2-26c6-4922-93e7-f75c79a37347",
+    "event_name": "Event-thj44",
+    "total_capacity": 62,
+    "available_seats": 61,
+    "ticket_price": 362.8,
+    "status": "ACTIVE"
+  },
+  "e321178c-2e4f-45a7-9363-6086dff0b3bd": {
+    "event_id": "e321178c-2e4f-45a7-9363-6086dff0b3bd",
+    "event_name": "Event-vv6vj",
+    "total_capacity": 47,
+    "available_seats": 45,
+    "ticket_price": 334.37,
+    "status": "ACTIVE"
+  },
+  "38e18071-8cb6-4450-aa63-2881f0eea977": {
+    "event_id": "38e18071-8cb6-4450-aa63-2881f0eea977",
+    "event_name": "Event-42e2r",
+    "total_capacity": 28,
+    "available_seats": 28,
+    "ticket_price": 363.59,
+    "status": "ACTIVE"
+  },
+  "47bb7363-4982-45d9-bb02-7c617cf260aa": {
+    "event_id": "47bb7363-4982-45d9-bb02-7c617cf260aa",
+    "event_name": "Event-c0zyv",
+    "total_capacity": 39,
+    "available_seats": 39,
+    "ticket_price": 100.81,
+    "status": "ACTIVE"
+  },
+  "9a6aa45a-9ee6-462e-a268-d143d70ac89d": {
+    "event_id": "9a6aa45a-9ee6-462e-a268-d143d70ac89d",
+    "event_name": "Event-tayeg",
+    "total_capacity": 22,
+    "available_seats": 19,
+    "ticket_price": 168.78,
+    "status": "ACTIVE"
+  },
+  "d3c5ffec-cde6-4dcb-8fc6-0fc69121432a": {
+    "event_id": "d3c5ffec-cde6-4dcb-8fc6-0fc69121432a",
+    "event_name": "Event-p2i25",
+    "total_capacity": 78,
+    "available_seats": 78,
+    "ticket_price": 89.07,
+    "status": "ACTIVE"
+  },
+  "ed6f07f8-fce8-4895-a1ce-3a084f296967": {
+    "event_id": "ed6f07f8-fce8-4895-a1ce-3a084f296967",
+    "event_name": "Event-u36r7",
+    "total_capacity": 25,
+    "available_seats": 23,
+    "ticket_price": 290.81,
+    "status": "ACTIVE"
+  },
+  "029bd355-e459-4155-96d7-6a67e88e085d": {
+    "event_id": "029bd355-e459-4155-96d7-6a67e88e085d",
+    "event_name": "Event-b5bjv",
+    "total_capacity": 42,
+    "available_seats": 42,
+    "ticket_price": 162.71,
+    "status": "ACTIVE"
+  },
+  "2faf1319-a606-4700-8d2c-37eef25a417a": {
+    "event_id": "2faf1319-a606-4700-8d2c-37eef25a417a",
+    "event_name": "Event-dufmc",
+    "total_capacity": 43,
+    "available_seats": 43,
+    "ticket_price": 351.42,
+    "status": "ACTIVE"
+  },
+  "6c6e16e6-4cf3-4787-98a0-f447473f7218": {
+    "event_id": "6c6e16e6-4cf3-4787-98a0-f447473f7218",
+    "event_name": "Event-f3kn9",
+    "total_capacity": 69,
+    "available_seats": 69,
+    "ticket_price": 37.17,
+    "status": "ACTIVE"
+  },
+  "1fc5d227-a482-4955-b48f-6b7d8341da65": {
+    "event_id": "1fc5d227-a482-4955-b48f-6b7d8341da65",
+    "event_name": "Event-3rgaj",
+    "total_capacity": 59,
+    "available_seats": 59,
+    "ticket_price": 271.37,
+    "status": "ACTIVE"
+  },
+  "a3a6c517-baef-49c7-80b5-373e285b7460": {
+    "event_id": "a3a6c517-baef-49c7-80b5-373e285b7460",
+    "event_name": "Event-0hesy",
+    "total_capacity": 33,
+    "available_seats": 33,
+    "ticket_price": 404.49,
+    "status": "ACTIVE"
+  },
+  "31a0fbd5-d0b1-4b3d-a475-b6b8b7a18ed1": {
+    "event_id": "31a0fbd5-d0b1-4b3d-a475-b6b8b7a18ed1",
+    "event_name": "Event-oirod",
+    "total_capacity": 99,
+    "available_seats": 99,
+    "ticket_price": 403.7,
+    "status": "ACTIVE"
+  },
+  "a9c984c6-e077-41ed-87a5-fd31f2022671": {
+    "event_id": "a9c984c6-e077-41ed-87a5-fd31f2022671",
+    "event_name": "Event-590il",
+    "total_capacity": 100,
+    "available_seats": 95,
+    "ticket_price": 139.39,
+    "status": "ACTIVE"
+  },
+  "c447ec67-9ea4-4559-85ef-32c8cda287dc": {
+    "event_id": "c447ec67-9ea4-4559-85ef-32c8cda287dc",
+    "event_name": "Event-wququ",
+    "total_capacity": 17,
+    "available_seats": 15,
+    "ticket_price": 248.65,
+    "status": "ACTIVE"
+  },
+  "a44fa7f8-67e9-4020-84d3-4f8961a5acb1": {
+    "event_id": "a44fa7f8-67e9-4020-84d3-4f8961a5acb1",
+    "event_name": "Event-6q3fb",
+    "total_capacity": 42,
+    "available_seats": 36,
+    "ticket_price": 69.54,
+    "status": "ACTIVE"
+  },
+  "cd0a5c6f-5813-4791-80b2-485d6e775f2f": {
+    "event_id": "cd0a5c6f-5813-4791-80b2-485d6e775f2f",
+    "event_name": "Event-v8gqx",
+    "total_capacity": 9,
+    "available_seats": 2,
+    "ticket_price": 480.45,
+    "status": "ACTIVE"
+  },
+  "106a25b1-5049-45af-9a73-f19cc96493b9": {
+    "event_id": "106a25b1-5049-45af-9a73-f19cc96493b9",
+    "event_name": "Event-vtl79",
+    "total_capacity": 100,
+    "available_seats": 92,
+    "ticket_price": 385.91,
+    "status": "ACTIVE"
+  },
+  "ef41ee3e-88be-43bb-ba76-af0e687899f6": {
+    "event_id": "ef41ee3e-88be-43bb-ba76-af0e687899f6",
+    "event_name": "Event-5i6mb",
+    "total_capacity": 13,
+    "available_seats": 11,
+    "ticket_price": 170.27,
+    "status": "ACTIVE"
+  },
+  "e7a22379-8ccb-4a0a-9876-84e0fd6fbeed": {
+    "event_id": "e7a22379-8ccb-4a0a-9876-84e0fd6fbeed",
+    "event_name": "Event-rp8yk",
+    "total_capacity": 91,
+    "available_seats": 89,
+    "ticket_price": 328.4,
+    "status": "ACTIVE"
+  },
+  "5b549e66-1086-4b4f-8d69-2daf5c6d31fb": {
+    "event_id": "5b549e66-1086-4b4f-8d69-2daf5c6d31fb",
+    "event_name": "Event-g7qkk",
+    "total_capacity": 41,
+    "available_seats": 41,
+    "ticket_price": 184.28,
+    "status": "ACTIVE"
+  },
+  "3b600abb-dddc-45bb-8c32-21ff02c561cf": {
+    "event_id": "3b600abb-dddc-45bb-8c32-21ff02c561cf",
+    "event_name": "Event-txxrb",
+    "total_capacity": 75,
+    "available_seats": 72,
+    "ticket_price": 123.94,
+    "status": "ACTIVE"
+  },
+  "4c48ac81-f323-49af-9325-901a981f4ba3": {
+    "event_id": "4c48ac81-f323-49af-9325-901a981f4ba3",
+    "event_name": "Event-zzk9i",
+    "total_capacity": 30,
+    "available_seats": 24,
+    "ticket_price": 328.05,
+    "status": "ACTIVE"
+  },
+  "0367c6da-c3ad-448e-a91b-8f8e62cfac8b": {
+    "event_id": "0367c6da-c3ad-448e-a91b-8f8e62cfac8b",
+    "event_name": "Event-0xdkw",
+    "total_capacity": 86,
+    "available_seats": 82,
+    "ticket_price": 423.83,
+    "status": "ACTIVE"
+  },
+  "396379b6-b321-4f68-b7f5-7f009ed09752": {
+    "event_id": "396379b6-b321-4f68-b7f5-7f009ed09752",
+    "event_name": "Event-sohf1",
+    "total_capacity": 21,
+    "available_seats": 19,
+    "ticket_price": 143.04,
+    "status": "ACTIVE"
+  },
+  "78768877-b607-414d-8e72-fcef2cf9e3de": {
+    "event_id": "78768877-b607-414d-8e72-fcef2cf9e3de",
+    "event_name": "Event-9uqmt",
+    "total_capacity": 100,
+    "available_seats": 100,
+    "ticket_price": 71.79,
+    "status": "ACTIVE"
+  },
+  "84cbc646-fecc-4ab6-9a36-bb901ac838db": {
+    "event_id": "84cbc646-fecc-4ab6-9a36-bb901ac838db",
+    "event_name": "Event-1e71x",
+    "total_capacity": 100,
+    "available_seats": 96,
+    "ticket_price": 275.98,
+    "status": "ACTIVE"
+  },
+  "454e42cd-343f-441d-998b-f1199ac8e8da": {
+    "event_id": "454e42cd-343f-441d-998b-f1199ac8e8da",
+    "event_name": "Event-7j6vw",
+    "total_capacity": 65,
+    "available_seats": 62,
+    "ticket_price": 282.29,
+    "status": "ACTIVE"
+  },
+  "623b4bba-8d64-413b-aae4-4238567f0ba9": {
+    "event_id": "623b4bba-8d64-413b-aae4-4238567f0ba9",
+    "event_name": "Event-r3zjw",
+    "total_capacity": 60,
+    "available_seats": 60,
+    "ticket_price": 345.07,
+    "status": "ACTIVE"
+  },
+  "79e9891d-82da-4887-9f97-084265493c2f": {
+    "event_id": "79e9891d-82da-4887-9f97-084265493c2f",
+    "event_name": "Event-q4r7r",
+    "total_capacity": 44,
+    "available_seats": 41,
+    "ticket_price": 399.59,
+    "status": "ACTIVE"
+  },
+  "bf6085a4-3b36-4493-9c1a-00f3318b6a4e": {
+    "event_id": "bf6085a4-3b36-4493-9c1a-00f3318b6a4e",
+    "event_name": "Event-eokdx",
+    "total_capacity": 95,
+    "available_seats": 89,
+    "ticket_price": 115.36,
+    "status": "ACTIVE"
+  },
+  "f60d48d6-7574-41e6-b4a6-c952bf55cff0": {
+    "event_id": "f60d48d6-7574-41e6-b4a6-c952bf55cff0",
+    "event_name": "Event-birlz",
+    "total_capacity": 25,
+    "available_seats": 25,
+    "ticket_price": 245.39,
+    "status": "ACTIVE"
+  },
+  "07a013fe-c361-491e-b725-1e06ecb3ee34": {
+    "event_id": "07a013fe-c361-491e-b725-1e06ecb3ee34",
+    "event_name": "Event-wwip2",
+    "total_capacity": 48,
+    "available_seats": 48,
+    "ticket_price": 316.54,
+    "status": "ACTIVE"
+  },
+  "01a56768-d6ba-4bef-b2fc-5a6c1336d6e9": {
+    "event_id": "01a56768-d6ba-4bef-b2fc-5a6c1336d6e9",
+    "event_name": "Event-q501l",
+    "total_capacity": 98,
+    "available_seats": 98,
+    "ticket_price": 396.26,
+    "status": "ACTIVE"
+  },
+  "b6397c79-473f-4e1e-ac2b-e1f80e7f0f23": {
+    "event_id": "b6397c79-473f-4e1e-ac2b-e1f80e7f0f23",
+    "event_name": "Event-qrn2l",
+    "total_capacity": 58,
+    "available_seats": 58,
+    "ticket_price": 456.89,
+    "status": "ACTIVE"
+  },
+  "950222e6-53d5-41fd-a879-95b576e6a000": {
+    "event_id": "950222e6-53d5-41fd-a879-95b576e6a000",
+    "event_name": "Event-2fvm1",
+    "total_capacity": 8,
+    "available_seats": 8,
+    "ticket_price": 342.06,
+    "status": "ACTIVE"
+  },
+  "35e3dbcb-897b-4b2a-bd62-6783eb320d72": {
+    "event_id": "35e3dbcb-897b-4b2a-bd62-6783eb320d72",
+    "event_name": "Event-6h4n1",
+    "total_capacity": 9,
+    "available_seats": 6,
+    "ticket_price": 441.51,
+    "status": "ACTIVE"
+  },
+  "4119d878-9bcf-4068-a6a4-87f9f06a0bb3": {
+    "event_id": "4119d878-9bcf-4068-a6a4-87f9f06a0bb3",
+    "event_name": "Event-7jpq2",
+    "total_capacity": 94,
+    "available_seats": 93,
+    "ticket_price": 471.62,
+    "status": "ACTIVE"
+  },
+  "cb71cb55-78c4-4626-a35c-fcd975ee404c": {
+    "event_id": "cb71cb55-78c4-4626-a35c-fcd975ee404c",
+    "event_name": "Event-myqxb",
+    "total_capacity": 98,
+    "available_seats": 94,
+    "ticket_price": 474.2,
+    "status": "ACTIVE"
+  },
+  "c4a6fe1f-5af0-4d4a-b6db-e0e100326871": {
+    "event_id": "c4a6fe1f-5af0-4d4a-b6db-e0e100326871",
+    "event_name": "Event-camnb",
+    "total_capacity": 9,
+    "available_seats": 4,
+    "ticket_price": 220.82,
+    "status": "ACTIVE"
+  },
+  "72b450d4-3128-4aad-855c-20ff906412ef": {
+    "event_id": "72b450d4-3128-4aad-855c-20ff906412ef",
+    "event_name": "Event-dxy3g",
+    "total_capacity": 25,
+    "available_seats": 24,
+    "ticket_price": 39.44,
+    "status": "ACTIVE"
+  },
+  "d6cae94a-0e25-4340-8634-5929b5fe30df": {
+    "event_id": "d6cae94a-0e25-4340-8634-5929b5fe30df",
+    "event_name": "Event-5kio0",
+    "total_capacity": 75,
+    "available_seats": 75,
+    "ticket_price": 68.57,
+    "status": "ACTIVE"
+  },
+  "4ac6323d-cd11-409d-8cbf-acfb2ed6c6a0": {
+    "event_id": "4ac6323d-cd11-409d-8cbf-acfb2ed6c6a0",
+    "event_name": "Event-b9pdk",
+    "total_capacity": 38,
+    "available_seats": 38,
+    "ticket_price": 246.05,
+    "status": "ACTIVE"
+  },
+  "fa89dafe-02ee-43ea-a1cd-36c846d1ebf6": {
+    "event_id": "fa89dafe-02ee-43ea-a1cd-36c846d1ebf6",
+    "event_name": "Event-hhw66",
+    "total_capacity": 61,
+    "available_seats": 61,
+    "ticket_price": 219.48,
+    "status": "ACTIVE"
+  },
+  "97c776b3-9726-49cf-8531-62725648b370": {
+    "event_id": "97c776b3-9726-49cf-8531-62725648b370",
+    "event_name": "Event-zg70r",
+    "total_capacity": 47,
+    "available_seats": 47,
+    "ticket_price": 224.66,
+    "status": "ACTIVE"
+  },
+  "57b77910-bf0a-4a2c-b110-623636d4f18c": {
+    "event_id": "57b77910-bf0a-4a2c-b110-623636d4f18c",
+    "event_name": "Event-ze4de",
+    "total_capacity": 77,
+    "available_seats": 77,
+    "ticket_price": 497.43,
+    "status": "ACTIVE"
+  },
+  "b454a950-b236-4619-a911-8d4c7a203fa1": {
+    "event_id": "b454a950-b236-4619-a911-8d4c7a203fa1",
+    "event_name": "Event-dmdv7",
+    "total_capacity": 79,
+    "available_seats": 79,
+    "ticket_price": 353.76,
+    "status": "ACTIVE"
+  },
+  "12a92845-b416-499d-9fc6-2c7edc6cddfb": {
+    "event_id": "12a92845-b416-499d-9fc6-2c7edc6cddfb",
+    "event_name": "Event-o0kwk",
+    "total_capacity": 21,
+    "available_seats": 21,
+    "ticket_price": 419.22,
+    "status": "ACTIVE"
+  },
+  "42927a07-2812-45c0-93e2-65fbc75dc9b4": {
+    "event_id": "42927a07-2812-45c0-93e2-65fbc75dc9b4",
+    "event_name": "Event-s7ubc",
+    "total_capacity": 86,
+    "available_seats": 85,
+    "ticket_price": 341.39,
+    "status": "ACTIVE"
+  },
+  "0e175193-5e7e-46df-8c4c-f39b3db9bd1e": {
+    "event_id": "0e175193-5e7e-46df-8c4c-f39b3db9bd1e",
+    "event_name": "Event-7fvzc",
+    "total_capacity": 24,
+    "available_seats": 23,
+    "ticket_price": 54.16,
+    "status": "ACTIVE"
+  },
+  "1fc72e3c-fb05-4e77-9720-87cb7ae884e1": {
+    "event_id": "1fc72e3c-fb05-4e77-9720-87cb7ae884e1",
+    "event_name": "Event-vffj8",
+    "total_capacity": 56,
+    "available_seats": 56,
+    "ticket_price": 103.92,
+    "status": "ACTIVE"
+  },
+  "3d837751-6d28-435c-8ad3-ee5dfc23b511": {
+    "event_id": "3d837751-6d28-435c-8ad3-ee5dfc23b511",
+    "event_name": "Event-56g20",
+    "total_capacity": 24,
+    "available_seats": 24,
+    "ticket_price": 241.91,
+    "status": "ACTIVE"
+  },
+  "03e495f8-4724-476f-8a79-73425e0de948": {
+    "event_id": "03e495f8-4724-476f-8a79-73425e0de948",
+    "event_name": "Event-1ovh4",
+    "total_capacity": 31,
+    "available_seats": 31,
+    "ticket_price": 420.96,
+    "status": "ACTIVE"
+  },
+  "fe6500e5-793d-4564-98df-be7a35da69bd": {
+    "event_id": "fe6500e5-793d-4564-98df-be7a35da69bd",
+    "event_name": "Event-lwbd4",
+    "total_capacity": 7,
+    "available_seats": 6,
+    "ticket_price": 303.39,
+    "status": "ACTIVE"
+  },
+  "9c31f5b3-500e-4d49-a476-6bb2d662699b": {
+    "event_id": "9c31f5b3-500e-4d49-a476-6bb2d662699b",
+    "event_name": "Event-ezazb",
+    "total_capacity": 59,
+    "available_seats": 59,
+    "ticket_price": 123.45,
+    "status": "ACTIVE"
+  },
+  "ff806de3-6004-4587-b73c-f7c38c2e23a5": {
+    "event_id": "ff806de3-6004-4587-b73c-f7c38c2e23a5",
+    "event_name": "Event-1ztpc",
+    "total_capacity": 31,
+    "available_seats": 31,
+    "ticket_price": 334.84,
+    "status": "ACTIVE"
+  },
+  "2260ea0b-f396-423a-aa5a-d43d0ebd9edb": {
+    "event_id": "2260ea0b-f396-423a-aa5a-d43d0ebd9edb",
+    "event_name": "Event-bikvh",
+    "total_capacity": 24,
+    "available_seats": 24,
+    "ticket_price": 448.54,
+    "status": "ACTIVE"
+  },
+  "c7c11f72-13c1-4583-b3d1-c65f5f62d857": {
+    "event_id": "c7c11f72-13c1-4583-b3d1-c65f5f62d857",
+    "event_name": "Event-bkjlu",
+    "total_capacity": 74,
+    "available_seats": 74,
+    "ticket_price": 452.19,
+    "status": "ACTIVE"
+  },
+  "4ec4f020-b0be-47b8-80e7-051b161984ba": {
+    "event_id": "4ec4f020-b0be-47b8-80e7-051b161984ba",
+    "event_name": "Event-231nj",
+    "total_capacity": 32,
+    "available_seats": 32,
+    "ticket_price": 257.97,
+    "status": "ACTIVE"
+  },
+  "5d283718-0900-46d5-8c1e-1d4b12d4ba8a": {
+    "event_id": "5d283718-0900-46d5-8c1e-1d4b12d4ba8a",
+    "event_name": "Event-5mqje",
+    "total_capacity": 44,
+    "available_seats": 44,
+    "ticket_price": 177.78,
+    "status": "ACTIVE"
+  },
+  "f2e44ee0-d722-435a-abd5-e25eb63d11e6": {
+    "event_id": "f2e44ee0-d722-435a-abd5-e25eb63d11e6",
+    "event_name": "Event-ztai8",
+    "total_capacity": 26,
+    "available_seats": 26,
+    "ticket_price": 73.28,
+    "status": "ACTIVE"
+  },
+  "609f5ac3-ad9d-4784-9947-3f307499883e": {
+    "event_id": "609f5ac3-ad9d-4784-9947-3f307499883e",
+    "event_name": "Event-zr31r",
+    "total_capacity": 79,
+    "available_seats": 79,
+    "ticket_price": 95.0,
+    "status": "ACTIVE"
+  },
+  "74084ea6-756d-4bdd-aa0d-054466f4390e": {
+    "event_id": "74084ea6-756d-4bdd-aa0d-054466f4390e",
+    "event_name": "Event-iizyz",
+    "total_capacity": 38,
+    "available_seats": 35,
+    "ticket_price": 30.31,
+    "status": "ACTIVE"
+  },
+  "860779cd-bd70-4656-b0e5-a178bfb4a3dc": {
+    "event_id": "860779cd-bd70-4656-b0e5-a178bfb4a3dc",
+    "event_name": "Event-50iar",
+    "total_capacity": 47,
+    "available_seats": 47,
+    "ticket_price": 225.4,
+    "status": "ACTIVE"
+  },
+  "f7d391e9-fb29-44b2-ab4f-c119feebd1e3": {
+    "event_id": "f7d391e9-fb29-44b2-ab4f-c119feebd1e3",
+    "event_name": "Event-97b3q",
+    "total_capacity": 73,
+    "available_seats": 73,
+    "ticket_price": 374.36,
+    "status": "ACTIVE"
+  },
+  "203f89a5-e301-4faf-b763-7b3409a80fb3": {
+    "event_id": "203f89a5-e301-4faf-b763-7b3409a80fb3",
+    "event_name": "Event-jm3qc",
+    "total_capacity": 97,
+    "available_seats": 95,
+    "ticket_price": 492.47,
+    "status": "ACTIVE"
+  },
+  "80caf3a1-2b41-409a-a276-0e94170eabba": {
+    "event_id": "80caf3a1-2b41-409a-a276-0e94170eabba",
+    "event_name": "Event-ki5sv",
+    "total_capacity": 29,
+    "available_seats": 26,
+    "ticket_price": 362.22,
+    "status": "ACTIVE"
+  },
+  "d59e4ff5-2954-4b2e-8a0e-136cb288fd79": {
+    "event_id": "d59e4ff5-2954-4b2e-8a0e-136cb288fd79",
+    "event_name": "Event-4srnt",
+    "total_capacity": 36,
+    "available_seats": 36,
+    "ticket_price": 34.48,
+    "status": "ACTIVE"
+  },
+  "28ae8294-b8be-4614-ba65-b9e2f7711ab2": {
+    "event_id": "28ae8294-b8be-4614-ba65-b9e2f7711ab2",
+    "event_name": "Event-h2bv2",
+    "total_capacity": 63,
+    "available_seats": 63,
+    "ticket_price": 211.09,
+    "status": "ACTIVE"
+  },
+  "6128f41b-fe46-4643-9cef-5cb60db1192f": {
+    "event_id": "6128f41b-fe46-4643-9cef-5cb60db1192f",
+    "event_name": "Event-bonj4",
+    "total_capacity": 15,
+    "available_seats": 15,
+    "ticket_price": 337.41,
+    "status": "ACTIVE"
+  },
+  "87848ce9-cc7d-4976-b4ec-8666dd5b300d": {
+    "event_id": "87848ce9-cc7d-4976-b4ec-8666dd5b300d",
+    "event_name": "Event-pif5m",
+    "total_capacity": 57,
+    "available_seats": 57,
+    "ticket_price": 287.22,
+    "status": "ACTIVE"
+  },
+  "32de775c-2cc4-4896-9926-4ca04b0eaefe": {
+    "event_id": "32de775c-2cc4-4896-9926-4ca04b0eaefe",
+    "event_name": "Event-m56or",
+    "total_capacity": 64,
+    "available_seats": 64,
+    "ticket_price": 370.02,
+    "status": "ACTIVE"
+  },
+  "0161c469-101f-4516-84eb-c217095c017f": {
+    "event_id": "0161c469-101f-4516-84eb-c217095c017f",
+    "event_name": "Event-tmzt7",
+    "total_capacity": 85,
+    "available_seats": 85,
+    "ticket_price": 382.69,
+    "status": "ACTIVE"
+  },
+  "a11c9af7-58a7-44aa-8cfc-f52cfc00a43d": {
+    "event_id": "a11c9af7-58a7-44aa-8cfc-f52cfc00a43d",
+    "event_name": "Event-q0xvi",
+    "total_capacity": 18,
+    "available_seats": 18,
+    "ticket_price": 481.01,
+    "status": "ACTIVE"
+  },
+  "b11b09c9-ac32-440a-acac-f2d023311f93": {
+    "event_id": "b11b09c9-ac32-440a-acac-f2d023311f93",
+    "event_name": "Event-0d1y3",
+    "total_capacity": 17,
+    "available_seats": 17,
+    "ticket_price": 204.88,
+    "status": "ACTIVE"
+  },
+  "d85bdd0f-b6fb-48e7-9a5b-eae49832c827": {
+    "event_id": "d85bdd0f-b6fb-48e7-9a5b-eae49832c827",
+    "event_name": "Event-od9ga",
+    "total_capacity": 71,
+    "available_seats": 71,
+    "ticket_price": 280.8,
+    "status": "ACTIVE"
+  },
+  "fa980e0f-7927-4bf3-9a47-761f6cc50852": {
+    "event_id": "fa980e0f-7927-4bf3-9a47-761f6cc50852",
+    "event_name": "Event-4w0zd",
+    "total_capacity": 42,
+    "available_seats": 42,
+    "ticket_price": 157.68,
+    "status": "ACTIVE"
+  },
+  "ba2e9c17-8131-4601-9529-d4d9bc94694d": {
+    "event_id": "ba2e9c17-8131-4601-9529-d4d9bc94694d",
+    "event_name": "Event-vbi8w",
+    "total_capacity": 50,
+    "available_seats": 50,
+    "ticket_price": 373.76,
     "status": "ACTIVE"
   }
 }

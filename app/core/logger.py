@@ -36,7 +36,8 @@ class SplunkHECHandler(logging.Handler):
         self.batch_size = batch_size
         self.batch_interval = batch_interval
         self.queue: asyncio.Queue = asyncio.Queue()
-        self.client = httpx.AsyncClient(timeout=5.0)
+        # We disable SSL verification (verify=False) as Splunk often uses self-signed certs for HEC
+        self.client = httpx.AsyncClient(timeout=5.0, verify=False)
         
         # We will start the worker task from the main FastAPI app event loop
         self.worker_task = None
