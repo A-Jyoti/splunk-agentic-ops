@@ -35,13 +35,14 @@ jobs:
         run: |
           LOG_CONTENT=$(cat lint_output.log || echo "No linting logs found")
           PAYLOAD=$(jq -n \
+            --arg st "cicd_pipeline" \
             --arg p "github_actions" \
             --arg stage "lint" \
             --arg status "${{ job.status }}" \
             --arg repo "${{ github.repository }}" \
             --arg sha "${{ github.sha }}" \
             --arg logs "$LOG_CONTENT" \
-            '{event: {pipeline: $p, stage: $stage, status: $status, repository: $repo, commit_sha: $sha, logs: $logs}}')
+            '{sourcetype: $st, event: {pipeline: $p, stage: $stage, status: $status, repository: $repo, commit_sha: $sha, logs: $logs}}')
           
           curl -k -X POST "${{ secrets.SPLUNK_HEC_URI }}" \
             -H "Authorization: Splunk ${{ secrets.SPLUNK_HEC_TOKEN }}" \
@@ -76,13 +77,14 @@ jobs:
         run: |
           LOG_CONTENT=$(cat test_output.log || echo "No test logs found")
           PAYLOAD=$(jq -n \
+            --arg st "cicd_pipeline" \
             --arg p "github_actions" \
             --arg stage "test" \
             --arg status "${{ job.status }}" \
             --arg repo "${{ github.repository }}" \
             --arg sha "${{ github.sha }}" \
             --arg logs "$LOG_CONTENT" \
-            '{event: {pipeline: $p, stage: $stage, status: $status, repository: $repo, commit_sha: $sha, logs: $logs}}')
+            '{sourcetype: $st, event: {pipeline: $p, stage: $stage, status: $status, repository: $repo, commit_sha: $sha, logs: $logs}}')
           
           curl -k -X POST "${{ secrets.SPLUNK_HEC_URI }}" \
             -H "Authorization: Splunk ${{ secrets.SPLUNK_HEC_TOKEN }}" \
@@ -122,13 +124,14 @@ jobs:
         run: |
           LOG_CONTENT=$(cat vercel_combined.log || echo "No deploy logs found")
           PAYLOAD=$(jq -n \
+            --arg st "cicd_pipeline" \
             --arg p "github_actions" \
             --arg stage "deploy" \
             --arg status "${{ job.status }}" \
             --arg repo "${{ github.repository }}" \
             --arg sha "${{ github.sha }}" \
             --arg logs "$LOG_CONTENT" \
-            '{event: {pipeline: $p, stage: $stage, status: $status, repository: $repo, commit_sha: $sha, logs: $logs}}')
+            '{sourcetype: $st, event: {pipeline: $p, stage: $stage, status: $status, repository: $repo, commit_sha: $sha, logs: $logs}}')
           
           curl -k -X POST "${{ secrets.SPLUNK_HEC_URI }}" \
             -H "Authorization: Splunk ${{ secrets.SPLUNK_HEC_TOKEN }}" \
