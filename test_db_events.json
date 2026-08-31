@@ -1,1 +1,10 @@
-{}
+{
+  "4a7173db-f411-4536-97ba-e91635d7528a": {
+    "event_id": "4a7173db-f411-4536-97ba-e91635d7528a",
+    "event_name": "Pay Event",
+    "total_capacity": 10,
+    "available_seats": 9,
+    "ticket_price": 100.0,
+    "status": "ACTIVE"
+  }
+}

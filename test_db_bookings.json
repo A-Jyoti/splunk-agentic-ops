@@ -1,1 +1,12 @@
-{}
+{
+  "8822fa9d-010d-479e-bef4-6488b2dd0dcf": {
+    "booking_id": "8822fa9d-010d-479e-bef4-6488b2dd0dcf",
+    "event_id": "4a7173db-f411-4536-97ba-e91635d7528a",
+    "user_id": "f62ca079-760e-46e1-9a14-8df17e054968",
+    "quantity": 1,
+    "total_cost": 100.0,
+    "status": "CONFIRMED",
+    "expires_at": "2026-08-31T10:34:31.656231Z",
+    "payment_reference": "tx_123"
+  }
+}
